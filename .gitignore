@@ -4,5 +4,7 @@ node_modules
 */.DS_Store
 */*/.DS_Store
 *.sh
+Gemfile
+Gemfile.lock
 
 2000-01-01-template.markdown

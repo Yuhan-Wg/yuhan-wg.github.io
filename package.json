@@ -16,7 +16,7 @@
         "url": "https://github.com/Yuhan-Wg/yuhan-wg.github.io"
     },
     "scripts": {
-        "preview": "cd _site; python -m SimpleHTTPServer 8020",
+        "preview": "cd _site; python3 -m http.server 9000",
         "watch": "grunt watch & npm run preview & jekyll serve -w;"
     }
 }
