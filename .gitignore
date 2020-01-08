@@ -1,0 +1,8 @@
+_site
+node_modules
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh
+
+2000-01-01-template.markdown

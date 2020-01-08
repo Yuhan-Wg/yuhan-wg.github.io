@@ -1,0 +1,92 @@
+# Site settings
+title: Yuhanwg's Blog
+SEOTitle: Yuhanwg's Blog
+header-img: img/config/home-bg.jpg
+email: yuhanwg1996@gmail.com
+description: ""
+keyword: ""
+url: "http://yuhan-wg.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     false
+zhihu_username:     false
+github_username:    Yuhan-Wg
+#twitter_username:  false
+facebook_username:  false
+lofter_username: yuhanwg
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: disqus_WzGIjbC3m0
+
+# Duoshuo settings
+#duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: fe318d8de39ba6127c35ba919177060b
+# Google Analytics
+ga_track_id: 'UA-155820179-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: ""
+sidebar-avatar: /img/config/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 20e6338fea6870a08317                            #生成的clientID
+  clientSecret: 45d8425a14798e357ac28e7463ae838533dde8e8    #生成的clientSecret
+  repo: yuhan-wg.github.io    #仓库名称
+  owner: Yuhan-Wg    #github用户名
+  admin: Yuhan-Wg 
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# Friends // title, href
+friends: []
